@@ -1,0 +1,39 @@
+<?php
+$server='localhost';
+$user='root';
+$password='';
+$db='coronadb';
+$con = mysqli_connect($server, $user, $password, $db);
+
+	$username=$_POST['username'];
+	$email=$_POST['email'];
+	$mobile=$_POST['mobile'];
+	$symp=$_POST['coronasym'];
+	$msg=$_POST['msg'];
+	echo "$username";
+	echo"$mobile";
+	$chk="";
+	foreach($symp as $chk1){
+		$chk.=$chk1.",";
+	}
+	$q="insert into coronacase(Patient_Name,email,mobile,symp,message)
+           values('$username','$email','$mobile','$chk','$msg')";
+	$query = mysqli_query($con,$q);
+	if($query){
+	?>
+	<script>
+		alert("insertion successful");
+	</script>
+	<?php
+}else{
+	?>
+	<script>
+		alert("insertion failed");
+	</script>
+	<?php
+
+}
+
+
+?>
+

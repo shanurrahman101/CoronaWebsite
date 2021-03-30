@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+    <body>
+    	<nav class="navbar navbar-expand-md  navbar-dark nav_style fixed-top">
+
+    		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand pl-5" href="#">COVID-19</a>
+ 
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto pr-5 text-capitalize">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+     	<a class="nav-link" href="#aboutid">about</a></li>
+     
+     <li class="nav-item">
+     	<a class="nav-link" href="#sympid">symptoms</a></li>
+     	 <li class="nav-item">
+     	<a class="nav-link"  target="blank" href="https://www.covid19india.org/">Current Active Cases</a></li>
+     	 <li class="nav-item">
+     	<a class="nav-link" href="#preventid">preventions</a></li>
+     	<li class="nav-item">
+     	<a class="nav-link" href="#contactid">contact</a></li>
+     	 
+</ul></div></nav>
+</div>
+</nav>
+
+<div class="main_header">
+	<div class="row w-100 h-100">
+		<div class="col-lg-5 col-md-5 col-12 order-lg-1 order-2">
+			<div class="leftside w-100 h-100 d-flex justify-content-center align-items-center">
+				<img src="./images/corona.png" width="300" height="300">
+		</div>
+	</div>
+		<div class="col-lg-7 col-md-7 col-12 order-lg-2 order-1">
+			<div class="rightside w-100 h-100 d-flex justify-content-center align-items-center">
+				<h1>Let's stay safe & Fight Together Against Corona</h1> 
+
+		</div>
+	</div></div></div>
+	<section class="corona_update">
+		<div class="mb-3">
+			<h3 class="text-uppercase text-center">covid-19 updates</h3></div>
+			<div class="d-flex justify-content-around align-items-center">
+				<div>
+					<h1 class="count">1,524,266</h1>
+					<p>Passengers screened at Airport</p>
+				</div>
+				<div>
+					<h1 class="count">41,00,000</h1>
+					<p>Active Covid Cases</p>
+				</div>
+				<div>
+					<h1 class="count">32,00,000</h1>
+					<p>Recovered</p>
+				</div>
+				<div>
+					<h1 class="count">70,000</h1>
+					<p>Death Reported</p>
+				</div>z
+			</div></section>
+
+			<div class="container-fluid sub_section pt-5 pb-5" id="aboutid">
+				<div class="section_header text-center mb-5 mt-4">
+					<h1>About Covid-19</h1>
+				</div>
+				<div class="row pt-5">
+				<div class="col-lg-5 col-md-6 col-12 ml-1">
+					<img src="./images/Corona1.png" class="img-fluid">
+				</div>
+				<div class="col-lg-6 col-md-6 col-12">
+					<h2>What is Covid-19(Corona-Virus)</h2>
+					<p>COVID-19 is the disease caused by the new coronavirus that emerged in China in December 2019.
+						COVID-19 symptoms include cough, fever or chills, shortness of breath or difficulty breathing, muscle or body aches, sore throat, new loss of taste or smell, diarrhea, headache, new fatigue, nausea or vomiting and congestion or runny nose. COVID-19 can be severe, and some cases have caused death.</p>
+					<p>The new coronavirus can be spread from person to person. It is diagnosed with a laboratory test.
+						There is no coronavirus vaccine yet. Prevention involves frequent hand-washing, coughing into the bend of your elbow, staying home when you are sick and wearing a cloth face covering if you can't practice physical distancing.</p></div></div></div>
+
+						<div class="container-fluid  pt-5 pb-5" id="sympid">
+							<div class="section_header text-center mb-5 mt-4">
+					<h1>Coronavirus Symptoms</h1>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<figure class="text-center">
+							<img src="./images/coughnew.jpg" class="img-fluid" width="120" height="120">
+							<figcaption>Cough</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<figure class="text-center">
+	                       <img src="./images/runningnose.jpeg" class="img-fluid" width="120" height="120">
+							<figcaption>runny nose</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<figure class="text-center">
+							<img src="./images/fever1.jpg" class="img-fluid" width="120" height="120">
+							<figcaption>fever</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<figure class="text-center">
+							<img src="./images/cold.jpg" class="img-fluid" width="120" height="120">
+							<figcaption>cold</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<figure class="text-center">
+							<img src="./images/tired.jpg" class="img-fluid" width="120" height="120">
+							<figcaption>tiredness</figcaption>
+						</figure>
+					</div>
+					<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<figure class="text-center">
+							<img src="./images/breath1.jpg" class="img-fluid" width="120" height="120">
+							<figcaption>difficulty in breathing</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</div>
+
+						<div class="container-fluid sub_section pt-5 pb-5" id="preventid">
+							<div class="section_header text-center mb-5 mt-4">
+					<h1>6 Steps Prevention Against Coronavirus</h1>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-12">
+									<figure class="text-center">
+							<img src="./images/soap.jpg" class="img-fluid">
+							
+						</figure>
+					</div>
+					<div class="col-lg-8 col-md-8 col-12">
+						<p>Wash your hands regularly for 20 seconds,with soap and water or alcohol-based hand rub</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-12">
+									<figure class="text-center">
+							<img src="./images/mask.jpg" class="img-fluid">
+							
+						</figure>
+					</div>
+					<div class="col-lg-8 col-md-8 col-12">
+						<p>Cover your nose and mouth with while sneezing or coughing</p>
+					</div>
+				</div>
+			</div>
+			  <div class="col-lg-4 col-md-4 col-12 mt-5">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-12">
+									<figure class="text-center">
+							<img src="./images/socialdistancing.jpg" class="img-fluid" >
+							
+						</figure>
+					</div>
+					<div class="col-lg-8 col-md-8 col-12">
+						<p>Keep a distance of atleast 1 meter or 3 feet with people</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-12">
+									<figure class="text-center">
+							<img src="./images/self-isolation.jpg" class="img-fluid">
+							
+						</figure>
+					</div>
+					<div class="col-lg-8 col-md-8 col-12">
+						<p>Stay home and self-isolate from others in the house if you feel unwell. </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-12">
+									<figure class="text-center">
+							<img src="./images/news1.jpg" class="img-fluid">
+							
+						</figure>
+					</div>
+					<div class="col-lg-8 col-md-8 col-12">
+						<p>stay informed by watching news and follow the recommended practices</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col-lg-4 col-md-4 col-12 mt-5">
+							<div class="row">
+								<div class="col-lg-4 col-md-4 col-12">
+									<figure class="text-center">
+							<img src="./images/hospital.jpg" class="img-fluid" >
+							
+						</figure>
+					</div>
+					<div class="col-lg-8 col-md-8 col-12">
+						<p>If you have fever,cough and difficulty breathing, seek medical care early</p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+	</div>
+</div>
+
+<!////////////////Contact us//////////-->
+<div class="container-fluid  pt-5 pb-5" id="contactid">
+							<div class="section_header text-center mb-5 mt-4">
+					<h1>Contact Us ASAP</h1>
+				</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 offset-lg-2 col-12">
+<form action="v.php" method="POST">
+
+
+ <div class="form-group">
+    <label>Patient_Name</label>
+    <input type="text" class="form-control" name="username" placeholder="name" autocomplete="off" required>
+  </div>
+  <div class="form-group">
+    <label>Email address</label>
+    <input type="email" class="form-control" name="email" placeholder="name@example.com" required autocomplete="off">
+  </div>
+  <div class="form-group">
+    <label>Mobile</label>
+    <input type="number" class="form-control" name="mobile" placeholder="mobile no" autocomplete="off" required>
+  </div>
+  <div class="form-group">
+  	<label>Select Symptoms</label><br>
+  	<div class="custom-control custom-checkbox custom-control-inline text-capitalize">
+  		<input type="checkbox" class="custom-control-input" id="customcheckbox1" name="coronasym[]" value="cold">
+  		<label class="custom-control-label" for="customcheckbox1">Cold</label>
+  	</div>
+  	<div class="custom-control custom-checkbox custom-control-inline text-capitalize">
+  		<input type="checkbox" class="custom-control-input" id="customcheckbox2" name="coronasym[]" value="fever">
+  		<label class="custom-control-label" for="customcheckbox2">Fever</label>
+  	</div>
+  	<div class="custom-control custom-checkbox custom-control-inline text-capitalize">
+  		<input type="checkbox" class="custom-control-input" id="customcheckbox3" name="coronasym[]" value="breath">
+  		<label class="custom-control-label" for="customcheckbox3">Diffuculty in Breath</label>
+  	</div>
+
+<div class="custom-control custom-checkbox custom-control-inline text-capitalize">
+  		<input type="checkbox" class="custom-control-input" id="customcheckbox4" name="coronasym[]" value="tired">
+  		<label class="custom-control-label" for="customcheckbox4">weakness</label>
+  	</div>
+  	</div>
+
+  <div class="form-group">
+    <label>Describe how are you feeling:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="msg"></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+</form></div></div></div></div>
+
+
+</body></html>
+
+
+
+  
